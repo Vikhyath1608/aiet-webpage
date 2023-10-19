@@ -1,0 +1,366 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 0px solid red;
+    display: grid;
+    column-gap: 0px;
+    grid-template-columns: 240px 260px 150px 450px 150px 100px 100px 100px 120px 90px;
+    font-weight: bold;
+
+
+
+}
+
+.box {
+    border: 0.1px solid red;
+    padding: 10px;
+}
+
+#box-1 {
+    background-color: rgb(35, 187, 229);
+    color: rgb(233, 228, 228);
+}
+
+#box-2 {
+    background-color: rgb(35, 187, 229);
+    color: aliceblue;
+}
+
+#box-3 {
+    background-color: rgb(35, 187, 229);
+    color: aliceblue;
+}
+
+#box-4 {
+    background-color: rgb(35, 187, 229);
+    color: aliceblue;
+
+}
+
+#box-5 {
+    background-color: rgb(35, 187, 229);
+    color: aliceblue;
+
+}
+
+#box-6 {
+    background-color: rgb(35, 187, 229);
+    color: aliceblue;
+
+}
+
+#box-7 {
+    background-color: rgb(35, 229, 206);
+    color: aliceblue;
+
+}
+
+#box-8 {
+    background-color: rgb(35, 187, 229);
+    color: aliceblue;
+
+}
+
+#box-9 {
+    background-color: rgb(35, 187, 229);
+    color: aliceblue;
+
+
+}
+
+#box-10 {
+    background-color: rgb(229, 35, 45);
+    color: aliceblue;
+
+}
+
+body {
+    background-repeat: no-repeat;
+    height: 1500px;
+    background-image: linear-gradient(#6b1c2bc3, #60bdcdc3), url(Aiet-College.jpg);
+
+
+}
+
+.container1 {
+
+    text-align: center;
+    color: white;
+    margin-left: 0px;
+    margin-right: 190px;
+    margin-top: 20px;
+
+
+}
+
+.container1 h1 {
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.logo img {
+    height: 130px;
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 2px;
+    margin-bottom: 70 40px;
+    border-radius: 20px;
+
+}
+
+.menubar {
+    background-color: rgb(234, 200, 27);
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.menubar ul {
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    color: black
+}
+
+.menubar ul li {
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+
+.point1,
+.menubar ul li a {
+    text-decoration: none;
+    color: rgb(220, 27, 27);
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.menubar ul li:hover {
+    background: rgb(98, 83, 237);
+    border-radius: 4px;
+}
+
+.Submenu2 {
+    display: none;
+}
+
+.menubar ul li:hover.Submenu2 {
+    display: block;
+    position: absolute;
+    background: #e5232d;
+    margin-top: 10px;
+    margin-left: 8px;
+
+}
+
+.menubar ul li:hover.Submenu2 ul {
+    display: block;
+    margin: 10px;
+}
+
+.container2 {
+    border: 0px solid red;
+    display: grid;
+    column-gap: 0px;
+    grid-template-columns: 160px 1640px;
+    font-weight: bold;
+    height: 70px;
+    font-size: x-large;
+    margin-top: 420px;
+}
+
+#box-11 {
+    background-color: #e5232d;
+    color: beige;
+}
+
+#box-12 {
+    background-color: rgb(191, 176, 240);
+    color: #41eac3;
+}
+
+div {
+    color: #e5232d;
+}
+
+.right {
+    float: right;
+    color: aliceblue;
+}
+
+.left h1 {
+    justify-items: left;
+    background-color: white;
+    font-color: #961681;
+    font-size: x-large;
+    margin-top: 0px;
+    font-weight: bolder;
+    font-style: italic;
+    height: 40px;
+
+}
+
+.container3 {
+    border: 0px solid red;
+    display: grid;
+    background-color: white;
+    column-gap: 0px;
+    grid-template-columns: 1000px;
+    font-weight: bold;
+    grid-template-rows: 600px 0px;
+
+
+
+}
+
+.box {
+    background-attachment: white;
+    background-color: antiquewhite;
+    border: 0.1px solid wheat;
+    padding: 10px;
+  
+
+
+}
+
+.containerb {
+    border: 0px solid white;
+    display: grid;
+    grid-template-columns: 550px 550px 550px;
+    column-gap: 0px;
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(208, 219, 221);
+
+}
+
+.box1 {
+    border: 2px solid rgb(218, 200, 216);
+    padding: 15px;
+    height: 60px;
+    column-gap: 5px;
+    margin-left: 200px;
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: rgb(198, 198, 11)
+}
+
+#box15 {
+    background-color: rgb(216, 157, 8);
+    font-size: large;
+    font-weight: bolder;
+    align-content: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+
+#box16 {
+    background-color: rgb(216, 157, 8);
+    font-size: large;
+    font-weight: bolder;
+    align-content: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+
+}
+
+#box17 {
+    background-color: rgb(216, 157, 8);
+    font-size: large;
+    font-weight: bolder;
+    align-content: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.left1 {
+    float:inline-start;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+   
+}
+.right1{
+    float:inline-end;
+    margin-left: 5px;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+.info{
+    margin-top: 5px;
+    margin-bottom:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.right2 {
+    border: 0px solid red;
+    display: grid;
+    background-color: white;
+    column-gap: 0px;
+    grid-template-columns: 1000px;
+
+    grid-template-rows: 600px 0px;
+    margin-top: 0px;
+
+
+
+}
+
+.box {
+    background-attachment: white;
+    background-color: white;
+    border: 0.1px solid white;
+    padding: 10px;
+    
+
+
+
+}
+
+#box18 {
+    margin-left: 100px;
+    margin-top: 8px;
+    background-color: white;
+font-size: large;
+    color: #8d16e8;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.container6 {
+    border: 0px solid rgb(118, 21, 174);
+    display: grid;
+    grid-template-columns: 550px 550px 550px;
+    column-gap: 0px;
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(35, 13, 94);
+    
+}
+
+.box2 {
+    border: 2px solid rgb(104, 13, 94);
+
+}
